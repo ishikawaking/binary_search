@@ -11,7 +11,6 @@ int main(){
   for(i = 0; i < n; i++){
     scanf("%d", &A[i]);
   }
-//apple
 
   return 0;
 }
