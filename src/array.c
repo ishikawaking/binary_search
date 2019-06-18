@@ -11,8 +11,13 @@ int main(){
   for(i = 0; i < n; i++){
     scanf("%d", &A[i]);
   }
-
-
-
+  int ld = -1;
+  int ud = n;
+  while(ud-ld > 1){
+    int m = (ld+ud)/2;
+    if(A[m] >= k){ud = m;}
+    else ld = m;
+  }
+  printf("%d\n", ud);
   return 0;
 }
