@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//問1
 int n;
 int k;
 int A[100000];
