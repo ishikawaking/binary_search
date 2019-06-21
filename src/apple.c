@@ -5,7 +5,7 @@ int k;
 int A[100000];
 
 int p(int m){
-    int sum = 0;
+    long long int sum = 0;
     for(int j = 0;j < n;j++){
         sum += (A[j] + m - 1)/m;
     }
